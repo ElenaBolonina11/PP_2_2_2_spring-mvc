@@ -10,7 +10,7 @@ public class Car {
         this.model = model;
         this.prise = prise;
     }
-
+    //public record Car (int data, String model, double prise){}
     public int getData() {
         return data;
     }
